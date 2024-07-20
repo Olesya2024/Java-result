@@ -1,6 +1,3 @@
-package org.example.Seminar6.Hom;
-
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -59,4 +56,3 @@ public class LaptopFilter {
                 && (filterCriteria.get("Color").isEmpty() || laptop.getColor().equalsIgnoreCase(filterCriteria.get("Color")));
     }
 }
-
